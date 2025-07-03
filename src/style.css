@@ -1,0 +1,61 @@
+:root {
+  --color-border: hsla(58, 29%, 10%, 1);
+  --color-canvas: hsla(58, 29%, 50%, 1);
+}
+
+body {
+  font-family: monospace;
+  background-color: hsla(58, 29%, 45%, 1);
+}
+
+button {
+  font-size: 20px;
+}
+
+canvas {
+  display: block;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+audio {
+  display: block;
+  width: 100%;
+}
+
+fieldset {
+  legend {
+    font-size: 20px;
+    background-color: var(--color-border);
+    color: var(--color-canvas);
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}
+
+canvas, fieldset {
+  border: var(--color-border) 3px solid;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
+  background-color: var(--color-canvas);
+}
+
+pre {
+  margin: 0;
+  font-size: 20px;
+  background-color: hsla(58, 29%, 10%, 1);
+  color: hsla(58, 29%, 80%, 1);
+  white-space: pre;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+select {
+  font-size: 20px;
+}
